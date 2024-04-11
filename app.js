@@ -16,7 +16,7 @@ let listaNumerosSorteados = []; // crear un arreglo para que el numero secreto n
 let vidasMaximas = 7;
 let vidas = vidasMaximas;
 let limite = 1;
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 
 
 
