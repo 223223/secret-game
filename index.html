@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Adivina El Numero</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title"></h1>
+            <h3 class="secondTitle"></h3>
+            <p class="parrafo"></p>
+            <form action="">
+                <input id="valorUsuario" class="input-numero" type="text" autocomplete="off">
+            </form>
+            <div class="container-btn">
+                <button class="btn-juego btn-reiniciar" id="nuevo-juego" onclick="reiniciarJuego();" disabled>Nuevo Juego</button>
+                <button class="btn-juego btn-intentar" id="intentarbutton" onclick="verificarIntento();">Intentar</button>
+            </div>
+        </div>
+    </header>
+    
+    <script src="app.js"></script>
+</body>
+</html>
